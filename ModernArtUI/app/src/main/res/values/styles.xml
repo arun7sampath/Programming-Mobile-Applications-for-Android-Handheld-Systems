@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0D47A1</item>
+        <item name="actionOverflowMenuStyle">@style/MenuTheme</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/MyPopUpTextSmall</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/MyPopUpTextLarge</item>
+    </style>
+
+    <!--<style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">-->
+        <!--<item name="android:alertDialogStyle">@style/DialogStyle</item>-->
+    <!--</style>-->
+
+    <!--<style name="DialogStyle">-->
+        <!--<item name="android:windowBackground">@android:color/holo_blue_dark</item>-->
+    <!--</style>-->
+
+    <style name="MenuTheme" parent="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:popupBackground">@android:color/black</item>
+    </style>
+
+    <style name="MyPopUpTextSmall" parent="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MyPopUpTextLarge" parent="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
